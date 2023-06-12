@@ -12,7 +12,7 @@ public class NumberGuessingGame {
         Scanner scanner = new Scanner(System.in);
 
         while (attempts < maxAttempts) {
-            System.out.print("予想した数を入力してください: ");
+            System.out.print("予想した数を入力してください!: ");
             int guess = scanner.nextInt();
             attempts++;
 
